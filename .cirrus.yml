@@ -6,5 +6,5 @@ fedora_task:
   script:
     - mkdir artifacts
     - cat /etc/os-release | grep PRETTY_NAME | cut -d '"' -f 2 > artifacts/name.txt
-  name_artifacts:
+  names_artifacts:
     path: "artifacts/*"
